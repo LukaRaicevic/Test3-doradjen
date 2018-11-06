@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Watchlist</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        
+    </head>
+
+    <body>
+        <div>
+            <form action="">
+                <input type="text" placeholder="Type here" id="usr-inp">
+                <input type="submit" value="Search" id="srch-btn">
+                <input type="radio" name="rbtn" value="ime" id="radio-btn-ime" checked> Ime
+                <input type="radio" name="rbtn" value="zanr" id="radio-btn-zanr"> Žanr
+                <select name="ocjena" id="ocjena">
+                    <option value="1">Ocjena</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </form>
+        </div>
+
+        <div id="content">
+            <table id="m-table">
+                <tr>
+                    <th>Broj</th>
+                    <th>Slika</th>
+                    <th>Datum izlaska</th>
+                    <th>Režiser</th>
+                    <th>Žanr</th>
+                    <th>Ocjena</th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

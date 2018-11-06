@@ -1,0 +1,47 @@
+[
+    {
+        "slika":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "ime":"TheGodfather",
+        "datum":"1972-03-24",
+        "reziser":"Francis Ford Copolla",
+        "zanr":["Drama", "Akcija"],
+        "ocjena":"9.2",
+        "info":"https://www.imdb.com/title/tt0068646/"
+    },
+    {
+        "slika":"https://i.pinimg.com/originals/6c/20/8e/6c208e14e98b7b9ad5b8da7ecc712255.jpg",
+        "ime":"Taken",
+        "datum":"2009-01-30",
+        "reziser":"Pierre Morel",
+        "zanr":["Akcija", "Triler"],
+        "ocjena":"7.8",
+        "info":"https://www.imdb.com/title/tt0936501/"
+    },
+    {
+        "slika":"https://images-na.ssl-images-amazon.com/images/I/81V%2Bb69u3xL._SY445_.jpg",
+        "ime":"CatchMeIfYouCan",
+        "datum":"2002-12-25",
+        "reziser":"Steven Spielberg",
+        "zanr":["Drama", "Krimi"],
+        "ocjena":"8.1",
+        "info":"https://www.imdb.com/title/tt0264464/"
+    },
+    {
+        "slika":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "ime":"Inception",
+        "datum":"2010-07-16",
+        "reziser":"Christopher Nolan",
+        "zanr":["Naucna fantastika", "Triler"],
+        "ocjena":"8.8",
+        "info":"https://www.imdb.com/title/tt1375666/"
+    },
+    {
+        "slika":"https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "ime":"ShutterIsland",
+        "datum":"2010-02-19",
+        "reziser":"Martin Scorsese",
+        "zanr":["Triler", "Drama"],
+        "ocjena":"8.1",
+        "info":"https://www.imdb.com/title/tt1130884/"
+    }
+]
