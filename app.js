@@ -36,25 +36,32 @@ function cont(data) {
     tbl.insertAdjacentHTML("beforeend", str);
     srch.addEventListener("click", function() {
         event.preventDefault();
-        let userInp = document.getElementById("usr-inp").value;
+        let userInp = document.getElementById("usr-inp").value.toLowerCase();
         for(let i = 0; i < data.length; i++) {
             if(rBtnIme.checked) {
                 if(userInp == "") {
-                    break;
+                    for(let i = 0; i < tableRow.length-1; i++) {
+                        tableRow[i+1].style.display = "table-row";
+                    }
                 }
-                if(data[i].ime != userInp) {
+                if(data[i].ime.toLowerCase() != userInp) {
                     tableRow[i+1].style.display = "none";
                 } else {
                     tableRow[i+1].style.display = "table-row";
                 }
             } else {
                 for(let j = 0; j < data[i].zanr.length; j++) {
-                    if(data[i].zanr[j] === userInp) {
+                    if(data[i].zanr[j].toLowerCase() === userInp) {
                         tableRow[i+1].style.display = "table-row";
                         break;
                     }
                     if(j === data[i].zanr.length-1) {
                         tableRow[i+1].style.display = "none";
+                    }
+                    if(userInp == "") {
+                        for(let i = 0; i < tableRow.length-1; i++) {
+                            tableRow[i+1].style.display = "table-row";
+                        }
                     }
                 }
             }

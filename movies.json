@@ -1,7 +1,7 @@
 [
     {
         "slika":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
-        "ime":"TheGodfather",
+        "ime":"The Godfather",
         "datum":"1972-03-24",
         "reziser":"Francis Ford Copolla",
         "zanr":["Drama", "Akcija"],
@@ -19,7 +19,7 @@
     },
     {
         "slika":"https://images-na.ssl-images-amazon.com/images/I/81V%2Bb69u3xL._SY445_.jpg",
-        "ime":"CatchMeIfYouCan",
+        "ime":"Catch Me If You Can",
         "datum":"2002-12-25",
         "reziser":"Steven Spielberg",
         "zanr":["Drama", "Krimi"],
@@ -37,7 +37,7 @@
     },
     {
         "slika":"https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
-        "ime":"ShutterIsland",
+        "ime":"Shutter Island",
         "datum":"2010-02-19",
         "reziser":"Martin Scorsese",
         "zanr":["Triler", "Drama"],
