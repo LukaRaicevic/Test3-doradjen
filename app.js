@@ -44,14 +44,16 @@ function cont(data) {
                         tableRow[i+1].style.display = "table-row";
                     }
                 }
-                if(data[i].ime.toLowerCase() != userInp) {
+                if(data[i].ime.toLowerCase().indexOf(userInp) === -1) {
                     tableRow[i+1].style.display = "none";
                 } else {
                     tableRow[i+1].style.display = "table-row";
                 }
             } else {
                 for(let j = 0; j < data[i].zanr.length; j++) {
-                    if(data[i].zanr[j].toLowerCase() === userInp) {
+                    if(data[i].zanr[j].toLowerCase().indexOf(userInp) === -1) {
+                        tableRow[i+1].style.display = "none";
+                    } else {
                         tableRow[i+1].style.display = "table-row";
                         break;
                     }
